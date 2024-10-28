@@ -62,6 +62,9 @@ export const rule = {
       if (!message) {
         return false
       }
+      if (Config.todaySuperPower.blacklist.id.includes(e.user_id)) {
+        return await e.reply('你已被管理员禁止评论。');
+      }
       if (message.length > Config.todaySuperPower.reviewLengthLimit) {
         return await e.reply('评论内容过长,请重新输入~')
       }
