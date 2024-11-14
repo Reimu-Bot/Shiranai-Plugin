@@ -38,3 +38,10 @@ adapter:
     value: "QQBot"
   - key: "e.bot.config.markdown"
     value: true
+
+# 一行一个用户id
+# 设置到里面的用户则无法进行评论
+blacklist:
+  id:
+    - 1
+    - 4
