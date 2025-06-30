@@ -5,7 +5,12 @@ import { Bot, segment } from '#lib'
 import schedule from 'node-schedule'
 import { Version, Config } from '#components'
 import { getTime, readFile, writeFile, toButton } from '#models'
-
+const imageUrls = [
+"https://i0.hdslb.com/bfs/new_dyn/8fc2aaf8eec7437d2b149b863ae2b20d12689094.jpg",
+"https://i0.hdslb.com/bfs/new_dyn/9ad782d7a653fe45caeb0ca4a18ed9a612689094.jpg",
+"https://i0.hdslb.com/bfs/new_dyn/35dbf973da37546914cbd913e4c7fab512689094.jpg",
+"https://i0.hdslb.com/bfs/new_dyn/57caf48a8c1d525665368953f21be36d12689094.jpg"
+];
 const dataPath = 'resources/todaySuperPower/data.json'
 if (!fs.existsSync(dataPath)) {
   const defaultPath = 'resources/todaySuperPower/data_default.json'
@@ -292,12 +297,17 @@ export class TodaySuperPower {
   getMsg (superPower, select) {
     const tip = select ? `***\r>你选择了${select}\r\r` : ''
     return [
-      `\r#你会按下这个按钮吗?\r${superPower.will}\r\r#但是:\r ${superPower.but}\r\r${tip}>已有${superPower.press}人选择按下,${superPower.notPress}人选择不按`
+      `\r#❓你会按下这个按钮吗?\r${superPower.will}\r\r#❗但是:\r ${superPower.but}\r\r${tip}>已有${superPower.press}人选择按下,${superPower.notPress}人选择不按\r>该玩法仅供娱乐，不代表任何真实情况或可能发生的事件哦！请勿在现实中复现、实践超能力！`
     ]
   }
 
   getTodayMsg (select = '', superPower = this.todaySuperPower) {
     const msg = this.getMsg(superPower, select)
+    const randomIndex = Math.floor(Math.random() * imageUrls.length);
+    const randomImage = segment.image(imageUrls[randomIndex]);
+    
+    // 将图片添加到消息数组的开头
+    msg.unshift(randomImage);
     msg.push(toButton([
       [
         { text: '按下', callback: '/按下' },
@@ -308,6 +318,9 @@ export class TodaySuperPower {
         {
           text: '查看评论', callback: '/查看评论'
         }
+      ],
+      [
+        { text: '我要投稿', link: 'https://docs.qq.com/form/page/DQ1JVWFJ6a2p4amdX' }
       ]
     ], 'QQBot'))
     return msg
