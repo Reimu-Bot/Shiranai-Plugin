@@ -310,17 +310,19 @@ export class TodaySuperPower {
     msg.unshift(randomImage);
     msg.push(toButton([
       [
-        { text: '按下', callback: '/按下' },
-        { text: '不按', callback: '/不按' }
+        { text: '✅️按下', callback: '/按下' },
+        { text: '❎不按', callback: '/不按' }
       ],
       [
-        { text: '点击评论', input: '/评论' },
-        {
-          text: '查看评论', callback: '/查看评论'
-        }
+        { text: '✏️点击评论', input: '/评论' },
+        { text: '📰查看评论', callback: '/查看评论'}
       ],
       [
-        { text: '我要投稿', link: 'https://docs.qq.com/form/page/DQ1JVWFJ6a2p4amdX' }
+        { text: '💞今日群友', callback: '/今日群友' },
+        { text: '🐾今日宝可梦', callback: '/今日宝可梦'}
+      ],
+      [
+        { text: '投稿超能力', link: 'https://docs.qq.com/form/page/DQ1JVWFJ6a2p4amdX' }
       ]
     ], 'QQBot'))
     return msg
