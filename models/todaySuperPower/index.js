@@ -40,12 +40,11 @@ export class TodaySuperPower {
       this.time = getTime()
       this.getTodaySuperPower()
     })
-    if (Config.todaySuperPower.TomorrowSuperPowerInfo.enable) {
+    // 简化明日超能力推送，如果需要可以在这里添加推送逻辑
+    if (Config.todaySuperPower && Config.todaySuperPower.TomorrowSuperPowerInfo && Config.todaySuperPower.TomorrowSuperPowerInfo.enable) {
       schedule.scheduleJob(Config.todaySuperPower.TomorrowSuperPowerInfo.cron, async () => {
-        const bot = Bot[Config.todaySuperPower.otherBotInfo.QQ].pickGroup(Config.todaySuperPower.otherBotInfo.group)
-        const msg = [segment.at(Number(Config.todaySuperPower.QQBotInfo.QQ)), ' #明日超能力']
-        const { message_id } = await bot.sendMsg(msg)
-        await bot.recallMsg(message_id)
+        // 这里可以添加明日超能力推送逻辑
+        console.log('明日超能力推送时间到了')
       })
     }
   }
