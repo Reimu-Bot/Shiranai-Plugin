@@ -46,7 +46,7 @@ export default class {
 
       accept (e) {
         if (Version.BotName !== 'Trss-Yunzai') {
-          e.adapter_name = e.adapter || 'ICQQ'
+          e.adapter_name = e.adapter || 'QQBot'
         }
       }
     }

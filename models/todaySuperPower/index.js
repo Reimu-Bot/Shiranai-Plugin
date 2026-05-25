@@ -321,7 +321,7 @@ export class TodaySuperPower {
         { text: '🐾今日宝可梦', callback: '/今日宝可梦'}
       ],
       [
-        { text: '投稿超能力', link: 'https://docs.qq.com/form/page/DQ1JVWFJ6a2p4amdX' }
+        { text: "🩵心理测试", callback: `/全部测试列表` },{ text: '投稿超能力', link: 'https://docs.qq.com/form/page/DQ1JVWFJ6a2p4amdX' }  
       ]
     ], 'QQBot'))
     return msg

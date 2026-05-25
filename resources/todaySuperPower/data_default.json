@@ -1393,12 +1393,6 @@
       "but": "一旦你使用了其中一个异能，你就会永久失去另一个异能。"
     },
     {
-      "willEn": "You gain eternal youth",
-      "butEn": "You can never have sex again",
-      "will": "你获得了永恒的青春",
-      "but": "你再也不能做爱了"
-    },
-    {
       "willEn": "You can have anyones social networking passwords",
       "butEn": "You are only allowed to use dial-up internet on an old computer",
       "will": "您可以拥有任何人的社交网络密码",
@@ -1715,12 +1709,6 @@
       "butEn": "Where you teleport is random",
       "will": "你可以在任何时候随心所欲地多次传送",
       "but": "你在哪里传送是随机的"
-    },
-    {
-      "willEn": "Unlimited money",
-      "butEn": "No sex ever",
-      "will": "无限制的金钱",
-      "but": "永远不做爱"
     },
     {
       "willEn": "You can sleep as long as you want forever.",
@@ -2561,12 +2549,6 @@
       "butEn": "Everyone who currently has cancer or has had cancer in the past dies.",
       "will": "癌症疫苗将会被发现，因此未来没有人会患上癌症。",
       "but": "所有目前患有癌症或过去曾患过癌症的人都会死亡。"
-    },
-    {
-      "willEn": "Have the greatest girlfriend/boyfriend ever",
-      "butEn": "you can never have sex with him/her",
-      "will": "拥有史上最棒的女朋友/男朋友",
-      "but": "你永远不能和他/她做爱"
     },
     {
       "willEn": "You will be given $100 of your currency every day, adjusted yearly for inflation.",
@@ -3671,12 +3653,6 @@
       "butEn": "You will lose your ability to lie",
       "will": "你每分钟能赚10美元",
       "but": "你会失去撒谎的能力"
-    },
-    {
-      "willEn": "You can watch porn of anyone or anything",
-      "butEn": "You can not have sex",
-      "will": "你可以看任何人或任何东西的涩涩片",
-      "but": "你不能做爱"
     },
     {
       "willEn": "Get 10 million dollars every year",
@@ -6303,12 +6279,6 @@
 	"but": "你会不受控制的去追逐水母或类似形态的动物"
 	},
 	{
-	"willEn": "You will never have kidney deficiency",
-	"butEn": "You can only get an erection when having sex with your wife",
-	"will": "你永远不会肾虚",
-	"but": "你只有和你的妻子一起做爱的时候才能立起来"
-	},
-	{
 	"willEn": "Can obtain everything",
 	"butEn": "Need to exchange with life",
 	"will": "可以获得所有东西",
@@ -6895,7 +6865,1357 @@
 	"butEn": "Turn into an animal",
 	"will": "获得一张黑卡",
 	"but": "变成动物"
-	}
+	},
+	  {
+		"willEn": "You will never die of hunger or thirst. You will never feel hungry or full again",
+		"butEn": "You can be resurrected once. If discovered by a certain witch, you will definitely die",
+		"will": "你无法饿死或渴死，你再也无法感受饥饿或者饱腹",
+		"but": "你能复活一次，被某巫女发现你就必死无疑"
+	  },
+	  {
+		"willEn": "You can read everyone's innermost thoughts",
+		"butEn": "Every year, your secrets will be broadcast to the whole world",
+		"will": "你可以读取每个人的心声",
+		"but": "每一年全世界都会广播你的秘密"
+	  },
+	  {
+		"willEn": "You directly master top-level 3D modeling and painting skills",
+		"butEn": "No one will ever come to you for commissioned work",
+		"will": "你直接学会顶尖建模和绘画",
+		"but": "但是没人找你约稿"
+	  },
+	  {
+		"willEn": "You can enter any QQ group at will and choose to replace the group owner",
+		"butEn": "You will become a group member with the surname Nu",
+		"will": "随意进入任何QQ群，可以选择取代群主",
+		"but": "自己变成群友的姓努"
+	  },
+	  {
+		"willEn": "You can stop time indefinitely",
+		"butEn": "During time stop, you cannot move or even think",
+		"will": "可以无限时停",
+		"but": "时停的时候无法活动，也不能思考"
+	  },
+	  {
+		"willEn": "When playing rhythm games, you will achieve Full Combo on the first try no matter what the game is",
+		"butEn": "You can never push your score higher than AP minus one",
+		"will": "玩音游不管什么都会初见FC",
+		"but": "但是推分永远只能推到AP-1"
+	  },
+	  {
+		"willEn": "You can make all your wishes come true",
+		"butEn": "You must say out loud whatever you wish for",
+		"will": "你可以心想事成",
+		"but": "你必须说出你所想"
+	  },
+	  {
+		"willEn": "You can predict the future five minutes ahead",
+		"butEn": "You will lose all your emotions",
+		"will": "预知5分钟后的未来",
+		"but": "丧失情绪"
+	  },
+	  {
+		"willEn": "You can control air currents",
+		"butEn": "Every breath you take feels like you are on the summit of Mount Everest",
+		"will": "你可以控制气流",
+		"but": "每次呼吸都像在珠穆朗玛峰顶一样"
+	  },
+	  {
+		"willEn": "Your group friends will turn into cat girls",
+		"butEn": "They are not for sale, they just get in your way",
+		"will": "你的群友会变成猫娘",
+		"but": "不卖，纯挡道"
+	  },
+	  {
+		"willEn": "You will no longer be affected by the side effects of any superpowers",
+		"butEn": "You will definitely press the button of every superpower available",
+		"will": "你不再受到超能力副作用的影响",
+		"but": "你必然按下每个超能力按钮"
+	  },
+	  {
+		"willEn": "You can decide the fate of one person",
+		"butEn": "You will also be affected by that fateful decision",
+		"will": "你可以抉择一个人的命运",
+		"but": "你也会被抉择影响"
+	  },
+	  {
+		"willEn": "Every attack you launch has a 50% chance of instantly killing your opponent",
+		"butEn": "When the opponent is instantly killed, there is an 80% chance that the kill will be ignored",
+		"will": "你每次攻击有50%的概率秒杀对方",
+		"but": "当对面被秒杀时，有80%的概率无视"
+	  },
+	  {
+		"willEn": "You have the ability of X-ray vision",
+		"butEn": "You will suffer from kidney deficiency",
+		"will": "透视",
+		"but": "肾虚"
+	  },
+	  {
+		"willEn": "You can predict the future",
+		"butEn": "You can only predict what will happen one second later",
+		"will": "可以预测未来",
+		"but": "只能预测一秒后的事"
+	  },
+	  {
+		"willEn": "You have an IQ that surpasses the limits of human intelligence",
+		"butEn": "Your body will disappear whenever it sustains damage",
+		"will": "你拥有超过人类极限的智商",
+		"but": "你的身体在受到伤害时消失"
+	  },
+	  {
+		"willEn": "You can change your gender",
+		"butEn": "This ability can only be activated once",
+		"will": "你可以改变性别",
+		"but": "只能发动一次"
+	  },
+	  {
+		"willEn": "You can stably get 100,000 US dollars every month",
+		"butEn": "You must spend all of it within one day",
+		"will": "你可以每个月都稳定地获得十万美元",
+		"but": "你必须在一天之内花完"
+	  },
+	  {
+		"willEn": "You have a pen that can write on its own, completely controlled by your thoughts",
+		"butEn": "You will forget how to hold a pen to write by hand",
+		"will": "有一支可以自己写字的笔，写什么完全由你的意念操控",
+		"but": "忘记怎么用手握笔写字"
+	  },
+	  {
+		"willEn": "You can make any part or organ of your body grow 5 centimeters longer",
+		"butEn": "A random part or organ of your body will shrink 5 centimeters shorter",
+		"will": "可以使一个身体的任意部位或者器官增加5厘米",
+		"but": "一个随机的身体部位或器官减少2厘米"
+	  },
+	  {
+		"willEn": "You have Deidara's explosive abilities, but you use fat instead of explosive clay",
+		"butEn": "Excessive consumption of fat will lead to partial muscle loss",
+		"will": "拥有迪达拉的能力，但用脂肪代替起爆黏土",
+		"but": "过度消耗脂肪的话，会导致肌肉的部分流失"
+	  },
+	  {
+		"willEn": "You can learn one person's deepest secret",
+		"butEn": "You will also bear all their pain and suffering",
+		"will": "你可以知晓一个人的秘密",
+		"but": "同时也将承担他的痛苦"
+	  },
+	  {
+		"willEn": "You can control everyone and any 2D characters that come to the real world",
+		"butEn": "Every second you live, there is a 1% chance that you will be cut in half at the waist",
+		"will": "你可以控制所有人和来到现实的纸片人",
+		"but": "你每活一秒就有1％的概率被腰斩"
+	  },
+	  {
+		"willEn": "You can travel back in time to the past",
+		"butEn": "You cannot change anything at all",
+		"will": "你可以回溯时间回到过去",
+		"but": "但是你无法改变任何事"
+	  },
+	  {
+		"willEn": "You will receive the blessing of the God of Blocking Bridges",
+		"butEn": "You will lose your ()",
+		"will": "获得堵桥之神的庇佑",
+		"but": "会失去你的（）"
+	  },
+	  {
+		"willEn": "You can travel to any other world at will",
+		"butEn": "Your original world will collapse and be destroyed",
+		"will": "可以任意去往其它世界",
+		"but": "原世界会崩溃"
+	  },
+	  {
+		"willEn": "You can break through any obstacle, absolutely any kind",
+		"butEn": "You cannot control the consequences of breaking through it",
+		"will": "可以洞开任何阻碍，注意，是任何",
+		"but": "无法控制洞开的后果"
+	  },
+	  {
+		"willEn": "You can make any electronic device with Genshin Impact installed in the world explode",
+		"butEn": "You must play Genshin Impact for an hour and a half every day, otherwise all your devices with Genshin Impact installed will explode",
+		"will": "你可以让世界上任何安装原神的电子设备爆炸",
+		"but": "你必须每天玩一个半小时原神，不然你所有装有原神的设备都会爆炸"
+	  },
+	  {
+		"willEn": "You can blind anyone's eyes with a flash",
+		"butEn": "Every morning when you wake up, you will be flashed by a stun grenade",
+		"will": "你可以闪瞎任何人的眼睛",
+		"but": "你每天起床都会被闪光弹闪一下"
+	  },
+	  {
+		"willEn": "You don't need to buy a ticket to get on a bus",
+		"butEn": "The only way you can get on the bus is by being run over by it and glitching into the bus (you won't get injured or die)",
+		"will": "你上公交车不用买票",
+		"but": "你上公交车的方式只能是被公交车碾然后卡模型进入公交车内部（不会受伤或死掉之类的）"
+	  },
+	  {
+		"willEn": "You can become comrades-in-arms with your favorite virtual character",
+		"butEn": "You will die in battle eight years later",
+		"will": "你可以和你喜欢的虚拟角色成为战友",
+		"but": "但你会在八年后战死"
+	  },
+	  {
+		"willEn": "You can gain the ability to control other people's blood",
+		"butEn": "When you use this ability to harm others, your heart will stop beating",
+		"will": "你可以获得操控他人血液的能力",
+		"but": "当你使用这个能力害人时，你的心跳会慢慢停下来"
+	  },
+	  {
+		"willEn": "You can predict the future",
+		"butEn": "The future, once foreseen, becomes an unchangeable fixed fact",
+		"will": "可以预测未来",
+		"but": "未来一旦被预见，就会成为既定的无法改变的事实"
+	  },
+	  {
+		"willEn": "You can bite a lighter without suffering any harm",
+		"butEn": "Your appearance will turn into that of a penguin",
+		"will": "你可以咬打火机不受到任何伤害",
+		"but": "你的外形会变成一只企鹅"
+	  },
+	  {
+		"willEn": "You can listen to the audio playing in the headphones of anyone you see",
+		"butEn": "Each time you use this ability, you have to wait until the audio finishes playing or is interrupted by the listener to end it",
+		"will": "你可以听你看到的人耳机中的音频",
+		"but": "每次使用都必须等到音频播放完或被播放者中断才可结束"
+	  },
+	  {
+		"willEn": "After pressing, you will become the ruler of the greatest country, with loyal subordinates, beloved people, and affectionate concubines",
+		"butEn": "You will never be able to step out of your palace for the rest of your life, and you will spend most of your time sitting on the throne",
+		"will": "按下后，你将成为最伟大国家的统治者，且部下对你忠心耿耿，民众也很爱戴你，你的嫔妃也很爱你",
+		"but": "你将终生不能踏出你的宫殿，大部分时光只能坐在王座上"
+	  },
+	  {
+		"willEn": "Whatever you say can become reality",
+		"butEn": "You will keep laughing",
+		"will": "说什么都可以成为现实",
+		"but": "会笑"
+	  },
+	  {
+		"willEn": "Your spaceflight missions will definitely encounter the 'big red warning'",
+		"butEn": "You won't be able to withdraw or evacuate",
+		"will": "航天百分百出大红",
+		"but": "撤不出去"
+	  },
+	  {
+		"willEn": "You will never die of hunger",
+		"butEn": "You will always feel an overwhelming sense of hunger",
+		"will": "你永远不会因为饥饿而死",
+		"but": "但你永远会感受到无比的饥饿"
+	  },
+	  {
+		"willEn": "You will become the most powerful person in the eyes of others",
+		"butEn": "In fact, you are just an ordinary person with no superpowers at all, and you will live with guilt and condemnation in your heart",
+		"will": "你会成为别人眼中世界上最厉害的人",
+		"but": "但其实你只是一个普通人，没有任何超能力，你会带着心虚和内心的谴责活下去"
+	  },
+	  {
+		"willEn": "You can stop time for 5 seconds",
+		"butEn": "Everyone, including you, will be frozen in time",
+		"will": "你能时停时间5秒",
+		"but": "所有人都会被时停，包括你"
+	  },
+	  {
+		"willEn": "You can become a super top student",
+		"butEn": "You have no money, you are extremely unlucky, and you can never earn any money",
+		"will": "可以成为超级大学霸",
+		"but": "没钱╯▂╰运气特别倒霉，赚不了钱"
+	  },
+	  {
+		"willEn": "You can hear everyone's innermost thoughts",
+		"butEn": "You are deaf",
+		"will": "可以听到所有人的心声",
+		"but": "你是个聋人"
+	  },
+	  {
+		"willEn": "You will gain endless wealth",
+		"butEn": "After you die, you will suffer endless pain",
+		"will": "你会获得无穷无尽的财富",
+		"but": "你在死后会遭受无尽的痛苦"
+	  },
+	  {
+		"willEn": "You will gain the speed of The Flash",
+		"butEn": "A supernatural organization will announce that it wants to eliminate all of humanity",
+		"will": "你会获得闪电侠的速度",
+		"but": "一个超自然组织宣布要消灭全人类"
+	  },
+	  {
+		"willEn": "Any living creature you touch will die immediately",
+		"butEn": "Your lifespan is infinitely long",
+		"will": "你碰到的生物都会立即死亡",
+		"but": "你的寿命无限长"
+	  },
+	  {
+		"willEn": "You can play offline games that don't require an internet connection inside your brain",
+		"butEn": "This will damage your brain nerves",
+		"will": "可以脑内玩无网络要求的单机游戏",
+		"but": "损害脑神经"
+	  },
+	  {
+		"willEn": "You can soul transmigrate to yourself when you were three months old",
+		"butEn": "Your parents, grandparents and all direct relatives will also soul transmigrate to when you were three months old (those who have passed away will retain their memories until before death)",
+		"will": "可以魂穿到你自己出生后第三个月",
+		"but": "你父母以及祖父母辈直系亲属会一并魂穿到你出生第三个月的时候(已死亡的会保留直到死前的记忆)"
+	  },
+	  {
+		"willEn": "You can fire 120mm high-explosive grenades from your fingers",
+		"butEn": "Every time you fire one, you will lose one section of your finger",
+		"will": "可以手指发射120mm高爆榴弹",
+		"but": "发射一次少一节手指"
+	  },
+	  {
+		"willEn": "You can idle your body and let an AI operate it in your brain, or operate the idle bodies of other people with the same ability",
+		"butEn": "During the idle period, your body may be taken over by other people with the same ability, and you can only take back control when they choose to idle again",
+		"will": "可以脑内挂机闲置由人机操作你的行为，或者操作其他同能力者闲置时的身体",
+		"but": "挂机期间可能会被同能力者顶替操作，只有等同能力者再次选择挂机闲置才能继续使用自己的身体"
+	  },
+	  {
+		"willEn": "Every day is summer vacation",
+		"butEn": "Every day feels like the last day of summer vacation",
+		"will": "天天都是暑假",
+		"but": "每天都感觉是暑假最后一天"
+	  },
+	  {
+		"willEn": "You will find someone you love (in terms of appearance)",
+		"butEn": "This person is the same gender as you",
+		"will": "你会找到你爱的人（外观）",
+		"but": "他与你是同一个性别"
+	  },
+	  {
+		"willEn": "You will gain infinite money, endless wealth, and eternal life",
+		"butEn": "You have to watch everyone around you pass away one by one, and you can never save them with your abilities",
+		"will": "你获得了无穷的金钱，无穷的财富，以及无尽的生命",
+		"but": "但是你必须眼睁睁地看着自己身边的人一个个逝去，并且不能用能力拯救他们"
+	  },
+	  {
+		"willEn": "You will fall into an extremely realistic dream where everything is perfect, with everything you want or need, and no pain at all",
+		"butEn": "After a long time, you will wake up from the dream, and you will reasonably believe that the dream was also reality, and live the rest of your life with the memories of the dream",
+		"will": "你会陷入一个很真实的梦，梦里的一切都很美好，有着你想要/需要的一切，没有痛苦",
+		"but": "在很长的一段时间之后，你会从梦中醒来，你会以一种合理的方式认为梦中的也是现实，带着梦中的记忆过完一生"
+	  },
+	  {
+		"willEn": "You can travel to any cultural medium you want (manga, anime, novels, etc.)",
+		"butEn": "You cannot choose who you will be in that world",
+		"will": "你可以前往任何你想要的文化载体中（漫画，动漫，小说…）",
+		"but": "你没办法指定你是谁"
+	  },
+	  {
+		"willEn": "You can make everyone in the world immortal",
+		"butEn": "You can only exist in the form of a soul",
+		"will": "让全部人都不会死",
+		"but": "但你只能以灵魂状态存在"
+	  },
+	  {
+		"willEn": "You have supreme and unparalleled power",
+		"butEn": "You will lose all your relatives and friends",
+		"will": "拥有至高无上的力量",
+		"but": "失去亲友"
+	  },
+	  {
+		"willEn": "Raptor Radar: when bird watching, you can sense any birds of prey in any direction that have no obstacles between you and them in advance",
+		"butEn": "When you encounter a bird of prey, you will feel extremely nervous like a small bird, your hands will shake, and you won't be able to hold your camera and binoculars steadily",
+		"will": "猛禽雷达，能够在观鸟时提前感知任何方向与自己之间无障碍物遮挡的猛禽",
+		"but": "遇到猛禽时会像小型鸟类一样十分紧张，手会抖，拿不稳相机和望远镜"
+	  },
+	  {
+		"willEn": "When bird watching, if you concentrate, forest birds will take the initiative to jump to exposed places, perch there and change their postures from time to time",
+		"butEn": "The first time you press the shutter to take a photo of any bird, the camera's focus will definitely fail",
+		"will": "观鸟时，集中精神时，林鸟会主动跳到暴露处站定并不时变换姿势",
+		"but": "对任一只鸟第一次按下快门相机对焦必跑"
+	  },
+	  {
+		"willEn": "When bird watching, when you press the shutter, the camera's automatic exposure parameters will always adjust to the perfect setting, and the focus will also be extremely accurate",
+		"butEn": "After you take a photo of a bird, it will immediately try to stay away from you unconditionally",
+		"will": "观鸟时，按下快门时，相机设置为自动的曝光参数总是会调整到十分恰当的地方，对焦亦会十分准确",
+		"but": "鸟类在被你拍摄后会立即尝试无条件远离你"
+	  },
+	  {
+		"willEn": "When bird watching, you have a very high probability of encountering rare birds or even new regional record birds",
+		"butEn": "You will often forget to bring memory cards and spare batteries, and occasionally forget to bring your camera and binoculars",
+		"will": "观鸟时，有极大概率遇到罕见鸟类甚至地区新记录鸟类",
+		"but": "会经常忘记带储存卡和备用电池，偶尔会忘带相机和望远镜"
+	  },
+	  {
+		"willEn": "You can choose to press the button or not",
+		"butEn": "Pressing it is useless anyway (still added to make up the number)",
+		"will": "你可以选择按或不按按钮",
+		"but": "按了也没用（依旧凑数量）"
+	  },
+	  {
+		"willEn": "You will gain the superpowers of your favorite Touhou Project character",
+		"butEn": "You will turn into the appearance of that person (or youkai)",
+		"will": "获得你喜欢的东方角色的超能力",
+		"but": "会变成那个人（妖？）的样子"
+	  },
+	  {
+		"willEn": "When you feel bored, everyone around you (except you) will fall into a state of collective unconscious delusion (may also be accompanied by madness and other things)",
+		"butEn": "As you use this ability more times, your sense of existence in society will be further erased",
+		"will": "当你感到无聊时，周围所有人（除了你）全部陷入集体无意识的妄想状态（也有可能伴随发疯等事情的发生）",
+		"but": "随着使用次数的增加，你的存在感知将会在社会中进一步抹除"
+	  },
+	  {
+		"willEn": "You can control all turtles on Earth",
+		"butEn": "An invincible flying king tortoise will be generated, spinning like a top on the ground and chasing you; being touched by it will result in an instant kill",
+		"will": "你能够控制地球上所有乌龟",
+		"but": "会生成一只无敌飞天王八在地面上陀螺式旋转接近追杀你，被触碰到即会被秒杀"
+	  },
+	  {
+		"willEn": "You will gain the ability to make all your wishes come true",
+		"butEn": "You cannot set any restrictions on your ability, and everything you think of will come true immediately",
+		"will": "你可以获得心想事成的能力",
+		"but": "但你无法给自己的能力加上限制，你所有想到的一切都会立刻实现"
+	  },
+	  {
+		"willEn": "You can become the closest lover with anyone in Gensokyo",
+		"butEn": "His or her personality will turn into that of a yandere",
+		"will": "你可以和幻想乡里的任何一个人成为最亲密的恋人",
+		"but": "她（他）的性格会变成病娇"
+	  },
+	  {
+		"willEn": "You will have feet that foot fetishists will go crazy for",
+		"butEn": "You can never wash your feet for the rest of your life",
+		"will": "你将拥有足控为之疯狂的脚",
+		"but": "你永远不能洗脚"
+	  },
+	  {
+		"willEn": "You can change your appearance (including gender)",
+		"butEn": "Your lifespan will be reduced by half",
+		"will": "你可以改变自己的样貌（包括性别）",
+		"but": "寿命减少一半"
+	  },
+	  {
+		"willEn": "You will get 10 billion US dollars, and the source can be guaranteed to be legal and compliant",
+		"butEn": "You will lose everyone who exists in your social network, both in the past and in the future. This scope may be much larger than you think",
+		"will": "你将得到100亿美金，且能保证其来源合规",
+		"but": "你将失去在你关系网中存在的人，不论过去还是未来。这个范围可能比你想象中要大得多"
+	  },
+	  {
+		"willEn": "You can turn into Liu Kang",
+		"butEn": "You have to fight against other top experts every day",
+		"will": "你可以变成刘康",
+		"but": "但你每天都要和其他高手对战"
+	  },
+	  {
+		"willEn": "You will become more brave, rational, calm and aggressive",
+		"butEn": "So much so that you no longer seem like the person you used to be",
+		"will": "你会变得更加勇敢、理性、从容、激进",
+		"but": "以至于根本不像是曾经的你"
+	  },
+	  {
+		"willEn": "You will become an omniscient and omnipotent youkai who knows everything",
+		"butEn": "You can only exist in fictional worlds and cannot interfere with reality",
+		"will": "成为无所不知的全知全能之妖",
+		"but": "你只能存在于虚构世界，无法干涉现实"
+	  },
+	  {
+		"willEn": "You will always win when debating with others",
+		"butEn": "You can only express views that go against your own will",
+		"will": "与人辩论永远获胜",
+		"but": "只能输出违心观点"
+	  },
+	  {
+		"willEn": "Draw two cards",
+		"butEn": "You have to choose one from the two and discard the other",
+		"will": "抽两张牌",
+		"but": "你要从这两张中选择并弃掉一张"
+	  },
+	  {
+		"willEn": "You will become younger",
+		"butEn": "Your remaining lifespan will be reduced by half",
+		"will": "你会变年轻",
+		"but": "你以后的寿命减少一半"
+	  },
+	  {
+		"willEn": "You can get a Reimu fumo",
+		"butEn": "You will lose your Marisa fumo",
+		"will": "你可以获得灵梦fumo",
+		"but": "你将失去魔理沙fumo"
+	  },
+	  {
+		"willEn": "If more people press the button, those who don't press will die",
+		"butEn": "If more people don't press the button, everyone will survive",
+		"will": "按下的多则选不按的人死掉",
+		"but": "不按的多则全部存活"
+	  },
+	  {
+		"willEn": "Your confession will have a 100% success rate",
+		"butEn": "It only works on people of the same gender",
+		"will": "表白100%成功",
+		"but": "但是只能是同性"
+	  },
+	  {
+		"willEn": "Cao Chong, Ban Zhao, Sima Qian, Ouyang Xiu, Sima Guang, Han Yu, Ouyang Xiu, Su Shi, Wang Anshi, Zeng Gong",
+		"butEn": "You will be single for the rest of your life",
+		"will": "曹操 曹丕 曹植 司马相如 班固 班昭 司马迁 欧阳修 司马光 韩愈 柳宗元 苏洵 苏轼 苏辙 王安石 曾巩",
+		"but": "单身一辈子"
+	  },
+	  {
+		"willEn": "You will gain the ability to peek into fate",
+		"butEn": "No one can change this fate, including you",
+		"will": "你将获得窥视命运的能力",
+		"but": "这个命运谁都无法改变，包括你"
+	  },
+	  {
+		"willEn": "You can paint world-class paintings",
+		"butEn": "You can only paint with your buttocks",
+		"will": "你的屁可以驱散半径10米内的所有蚊子",
+		"but": "但会强烈吸引半径10米内的所有蟑螂"
+	  },
+	  {
+		"willEn": "You can listen to the voices of all things in the world",
+		"butEn": "You cannot turn off this ability",
+		"will": "聆听万物心声",
+		"but": "无法关闭"
+	  },
+	  {
+		"willEn": "You can resurrect any person",
+		"butEn": "The most important person to you will die immediately when you resurrect someone else",
+		"will": "你可以复活任何一个人",
+		"but": "你一个最重要的人会在你复活别人的时候立刻死去"
+	  },
+	  {
+		"willEn": "You can soul transmigrate to yourself when you were three months old",
+		"butEn": "All direct relatives within three generations who are still alive will also soul transmigrate to when you were three months old",
+		"will": "魂穿到自己三个月大的时候",
+		"but": "没死的三代内直系亲属也一并魂穿到你长到三个月大的时候"
+	  },
+	  {
+		"willEn": "You can eat any food without any problems",
+		"butEn": "You can only use chopsticks to eat things",
+		"will": "吃什么食物都没问题",
+		"but": "吃东西只会用筷子"
+	  },
+	  {
+		"willEn": "You will never run out of toilet paper when using the toilet",
+		"butEn": "You cannot decide the material of the toilet paper",
+		"will": "你上厕所时永远不会缺厕纸",
+		"but": "你不能决定厕纸的材质"
+	  },
+	  {
+		"willEn": "The global average intelligence will decrease by 10 times, and only you will remain unchanged",
+		"butEn": "All things that cannot be invented by humans with reduced intelligence will disappear overnight",
+		"will": "全球智力降低10倍唯独你不变",
+		"but": "以降低智力后的人类的智商不能发明出来的东西都会在一夜之间消失"
+	  },
+	  {
+		"willEn": "You can turn 5G into a pig girl",
+		"butEn": "You cannot turn it back",
+		"will": "把五G变成猪妞",
+		"but": "不能变回"
+	  },
+	  {
+		"willEn": "You can save the life of a loved one",
+		"butEn": "The person you saved will inevitably cause your death because of their own actions",
+		"will": "你可以挽救一个挚爱之人的性命",
+		"but": "你所挽救的那个人会因为自身而不可避免地导致你的死亡"
+	  },
+	  {
+		"willEn": "You can infinitely slow down the flow of time (only you can feel it)",
+		"butEn": "You cannot restore the time that has been slowed down",
+		"will": "你可以无限延长时间的流速（仅自己感受得到）",
+		"but": "没法恢复被延长的时间"
+	  },
+	  {
+		"willEn": "You have absolutely undetectable assassination skills",
+		"butEn": "Before every assassination you carry out, the target will know about it in advance",
+		"will": "你拥有绝对无法察觉的暗杀能力",
+		"but": "你每次暗杀之前都会被目标知道"
+	  },
+	  {
+		"willEn": "You can choose a character from the new version of Pleasant Goat and Big Big Wolf",
+		"butEn": "Create a tragic plot for this character, and you can choose again later",
+		"will": "可以选择新版喜羊羊里的角色",
+		"but": "自定一个刀子剧情，后面可以再次选择"
+	  },
+	  {
+		"willEn": "You are a super large cup size",
+		"butEn": "Your attacks will randomly target eight directions",
+		"will": "你是超大杯上",
+		"but": "攻击朝八个方向随机攻击"
+	  },
+	  {
+		"willEn": "You can transmigrate into Toyama Kasumi",
+		"butEn": "You will inherit a debt of 16.8 billion yuan, and the Toyama family will not provide any help",
+		"will": "穿越成丰川祥子",
+		"but": "继承168亿欠款并且丰川家不会提供任何帮助"
+	  },
+	  {
+		"willEn": "You can grant any wish",
+		"butEn": "If you make a wish with malicious intent, it will backfire on you",
+		"will": "你可以实现任何愿望",
+		"but": "如果许愿带着恶意则会反噬自己"
+	  },
+	  {
+		"willEn": "You can order unlimited free food on Crazy Thursday",
+		"butEn": "You must call McDonald's first and then ask the staff to transfer the call",
+		"will": "可以在疯狂星期四无限免费点单",
+		"but": "必须要打麦当劳电话再找员工转接"
+	  },
+	  {
+		"willEn": "You can eliminate the proof of existence of yourself or others",
+		"butEn": "The eliminated proof of existence can never be restored",
+		"will": "可以消除自身或者他人的存在证明",
+		"but": "被消除的存在证明无法复原"
+	  },
+	  {
+		"willEn": "You can order takeout for free",
+		"butEn": "Your takeout will definitely be stolen",
+		"will": "可以免费点外卖",
+		"but": "但是外卖必定会被偷"
+	  },
+	  {
+		"willEn": "You can make anyone defecate on the spot just by staring at them",
+		"butEn": "The person you like will also defecate on the spot at the same time",
+		"will": "你能够瞪谁谁原地拉屎",
+		"but": "但是你喜欢的人也会同时间原地拉屎"
+	  },
+	  {
+		"willEn": "You can meet the person you want to see the most",
+		"butEn": "That person will forget you completely",
+		"will": "可以见到想见的人",
+		"but": "那个人会忘掉你"
+	  },
+	  {
+		"willEn": "Make the world free of 'evil'",
+		"butEn": "You will die",
+		"will": "让这个世界没有“恶”",
+		"but": "你会死"
+	  },
+	  {
+		"willEn": "You have unlimited physical strength during ()",
+		"butEn": "You will only be pinned down under others",
+		"will": "你可以在**时无限制体力",
+		"but": "但你只会被压在身下"
+	  },
+	  {
+		"willEn": "You will definitely be able to sleep until you wake up naturally every day",
+		"butEn": "You will definitely sleepwalk every time you sleep",
+		"will": "每天都必定能睡到自然醒",
+		"but": "睡觉必定会梦游"
+	  },
+	  {
+		"willEn": "You will have endless musical talent, become a top figure in composing, writing lyrics and singing, never fade out of the public eye, and even be remembered after your death",
+		"butEn": "All non-food scents you smell will turn into the smell of hydrogen peroxide, and at the same time, all hydrogen peroxide you smell will turn into the smell of top-level perfume",
+		"will": "你会拥有无穷无尽的音乐才华，成为作曲作词唱歌的顶尖人物，一直不过气甚至作古之后还被纪念",
+		"but": "你闻到的所有有香味的非食物都是双氧水的味道，同时你闻到所有的双氧水都是顶级香水的味道"
+	  },
+	  {
+		"willEn": "You can be with the person you like",
+		"butEn": "The ending will definitely be a tragedy",
+		"will": "你可以和你喜欢的人在一起",
+		"but": "但结局一定是悲剧"
+	  },
+	  {
+		"willEn": "You can go to sleep whenever you want",
+		"butEn": "You can only wake up naturally, and nothing can wake you up",
+		"will": "你可以想睡觉就睡觉",
+		"but": "只能睡到自然醒，任何东西都叫不醒你"
+	  },
+	  {
+		"willEn": "Your tears can heal any person's pain, whether it is mental pain or terminal illness",
+		"butEn": "All humans in the world will know that you have this ability",
+		"will": "你的眼泪将治愈任何个人的痛苦，无论是心病还是绝症",
+		"but": "所有人类都将知道你有这个能力"
+	  },
+	  {
+		"willEn": "Fantasy Entry (enter Gensokyo)",
+		"butEn": "No one in the world can see you",
+		"will": "幻想入",
+		"but": "所有人都看不见你"
+	  },
+	  {
+		"willEn": "You can kill anyone casually now without any consequences",
+		"butEn": "You can never masturbate for the rest of your life",
+		"will": "你现在可以随便杀人，且没有任何后果",
+		"but": "但是你这辈子不能打飞机"
+	  },
+	  {
+		"willEn": "You can talk to animals",
+		"butEn": "The words animals say sound like swear words to you",
+		"will": "你能和动物说话",
+		"but": "但是动物说的话在你听来全是脏话"
+	  },
+	  {
+		"willEn": "You can turn any liquid into fruit juice",
+		"butEn": "You will never be able to drink alcohol for the rest of your life",
+		"will": "你可以把任何一种液体变成果汁",
+		"but": "但是你这辈子将不能喝酒"
+	  },
+	  {
+		"willEn": "You can get 100 yuan for free every day",
+		"butEn": "Your savings can never exceed 500 yuan",
+		"will": "你每天都可以免费领取100块钱",
+		"but": "但是你的存款无法超过500"
+	  },
+	  {
+		"willEn": "You are now the richest person in the world",
+		"butEn": "You find that you have to answer a harassing phone call every hour",
+		"will": "你现在已经是世界首富了",
+		"but": "但是你发现你每小时都必须接一个骚扰电话"
+	  },
+	  {
+		"willEn": "You will become a talented general, and even become the prime minister",
+		"butEn": "You and your subordinates will eventually be mind-controlled",
+		"will": "你将会成为才华横溢的将军，甚至当上总理",
+		"but": "你和你的部下最后都会被心灵控制"
+	  },
+	  {
+		"willEn": "You can soul transmigrate to yourself when you were six months old",
+		"butEn": "All direct relatives within three generations who are still alive will also soul transmigrate into your body when you were six months old (those who have passed away will retain their memories until before death and soul transmigrate; those who died before the host reached six months old are not within the scope of the ability)",
+		"will": "灵魂穿越到自己出生六个月大的时候",
+		"but": "活着的三代内直系亲属一并灵魂穿越到你长到六个月大的时候自己的身体(已死亡则取直到死亡前的记忆魂穿，在宿主成长到六个月前死亡的人不在能力范围内)"
+	  },
+	  {
+		"willEn": "Unlimited resurrection",
+		"butEn": "You only have one drop of blood, and the cooldown time between resurrections is one day",
+		"will": "无限复活",
+		"but": "只有一滴血，并且复活一次间隔一天"
+	  },
+	  {
+		"willEn": "You can gain the ability of magnetic field rotation",
+		"butEn": "You will keep dancing non-stop",
+		"will": "你可以获得磁场转动",
+		"but": "但是你会一刻不停的跳舞"
+	  },
+	  {
+		"willEn": "If you don't laugh, you will become gay; just kidding, you will still become gay even if you laugh",
+		"butEn": "No additional conditions",
+		"will": "不笑变成给（gay），骗你的，笑了也变给（gay）",
+		"but": "无额外条件"
+	  },
+	  {
+		"willEn": "Invulnerable to all weapons and harm",
+		"butEn": "You will regularly suffer from urinary calculi, appendicitis and hemorrhoids",
+		"will": "金刚不坏",
+		"but": "定期尿结石加阑尾炎加痔疮"
+	  },
+	  {
+		"willEn": "Immortal and indestructible",
+		"butEn": "You have to die three times before you can carry out any activities (under the condition of immortality being activated)",
+		"will": "不死不灭",
+		"but": "死三次才能进行活动(开了不死的情况下)"
+	  },
+	  {
+		"willEn": "You can make the person you love fall in love with you",
+		"butEn": "That love is manipulated by you",
+		"will": "能让你爱的人爱上你",
+		"but": "那是被操纵的爱"
+	  },
+	  {
+		"willEn": "You can make any chosen person fall in love with you",
+		"butEn": "You will never be able to fall in love with anyone",
+		"will": "能让选定任何人爱上自己",
+		"but": "你不会爱上任何人"
+	  },
+	  {
+		"willEn": "You will gain unlimited money",
+		"butEn": "You have to lick the buttocks of Murasame every day, otherwise you will die",
+		"will": "你会获得无限的钱",
+		"but": "你每天要舔丛雨的屁股，不然会死"
+	  },
+	  {
+		"willEn": "Immortal",
+		"butEn": "You will turn into a goblin",
+		"will": "不死",
+		"but": "成为哥布林"
+	  },
+	  {
+		"willEn": "You can soul transmigrate to yourself when you were six months old",
+		"butEn": "All direct relatives within three generations who are still alive will also soul transmigrate into your body when you were six months old (those who have passed away will retain their memories until before death and soul transmigrate; those who died before the host reached six months old are not within the scope of the ability)",
+		"will": "灵魂穿越到自己出生六个月大的时候",
+		"but": "活着的三代内直系亲属一并灵魂穿越到你长到六个月大的时候自己的身体(已死亡则取直到死亡前的记忆魂穿，在宿主成长到六个月前死亡的人不在能力范围内)"
+	  },
+	  {
+		"willEn": "You can make anyone conform to your preferences",
+		"butEn": "You will lose the star function",
+		"will": "可以让任何人变的符合你XP😍",
+		"but": "你将失去星功能😭"
+	  },
+	  {
+		"willEn": "Gain one million yuan",
+		"butEn": "You can never use your right hand for the rest of your life",
+		"will": "获得一百万",
+		"but": "这辈子不能再使用右手"
+	  },
+	  {
+		"willEn": "You will become very handsome",
+		"butEn": "You will become shorter",
+		"will": "你会变的很帅",
+		"but": "你会变短"
+	  },
+	  {
+		"willEn": "You can cultivate immortality, and you can choose any cultivation system, but it must be a widely recognized one, even if it is from a mindless casual drama that only fans will watch",
+		"butEn": "After one year, your existence will be announced to the whole world, and spiritual energy will recover. Then monsters will appear in this universe. After ten years, Earth's coordinates will be announced in the universe. After a hundred years, QU will discover this universe",
+		"will": "可以修仙，体系任选，但必须是众人所认知的修仙体系，哪怕是只有粉丝会去看的无脑休闲剧也可以",
+		"but": "一年后你的存在会被全世界通报，且灵气复苏，随后会有怪兽出现在本宇宙，十年后地球坐标在宇宙中公布，百年后qu会发现本宇宙"
+	  },
+	  {
+		"willEn": "You can cast curses to make others suffer bad luck (you cannot control what kind of bad luck it is) (ranging from losing a dollar to life-threatening accidents)",
+		"butEn": "You will also suffer bad luck (equivalent to 50% of the bad luck suffered by the other party)",
+		"will": "可以诅咒，让别人以此遭受厄运（无法控制具体是什么厄运）（小到掉一块钱，大到生命出意外）",
+		"but": "你也会受到厄运（相当于对方受到的厄运的50%）"
+	  },
+	  {
+		"willEn": "The ability to control everything in the world",
+		"butEn": "You will die when you reach the age of 30",
+		"will": "操控万物的能力",
+		"but": "会在30岁的时候生死亡"
+	  },
+	  {
+		"willEn": "You have unlimited energy",
+		"butEn": "All your good brothers will turn into the opposite sex",
+		"will": "你可以无限精力",
+		"but": "但是你的好哥们都会变成异性"
+	  },
+	  {
+		"willEn": "You can be resurrected after death (you can choose freely)",
+		"butEn": "You must die once every month",
+		"will": "死亡后可复活（自由选择）",
+		"but": "每月必死一次"
+	  },
+	  {
+		"willEn": "You will no longer be affected by the side effects of any superpowers",
+		"butEn": "You will definitely press the button of every superpower available",
+		"will": "你不再受到超能力副作用的影响",
+		"but": "你必然按下每个超能力按钮"
+	  },
+	  {
+		"willEn": "You can marry your favorite anime character",
+		"butEn": "You can never fall in love in the real world again",
+		"will": "可以和你喜欢的动漫角色结婚",
+		"but": "你再也不能在现实中谈恋爱"
+	  },
+	  {
+		"willEn": "You can make any object you are staring at explode by snapping your fingers",
+		"butEn": "Snapping with your dominant hand doesn't count, and snapping with your other hand won't count if the sound can't reach the target",
+		"will": "你可以通过打响指来让任何你注视着的东西爆炸",
+		"but": "惯用手打的响指不算，而且另一只手打的响指声传不到对面也不算"
+	  },
+	  {
+		"willEn": "Propriety, justice, integrity and honor are all reversed",
+		"butEn": "You will be ignored by everyone",
+		"will": "礼义廉耻全部反转",
+		"but": "你会被所有人忽略"
+	  },
+	  {
+		"willEn": "1% chance to turn into Xiao Nanliang, but 99% chance to turn into both Xiao Nanliang and a cat girl at the same time; no matter what, you will gain the superpower of not getting hurt no matter how intense the () is",
+		"butEn": "After turning into Xiao Nanliang, you will become insatiable, and everyone within 800 meters around you will be attracted to you",
+		"will": "1%概率变成小南梁，但是有99%概率在变成小南梁的同时变成猫娘，但是不论如何你都会获得怎么超都不会受伤的超能力",
+		"but": "你变成小南梁后会变得欲求不满，且周围800米内的所有人都会被你吸引"
+	  },
+	  {
+		"willEn": "You can steal other people's takeout without being caught",
+		"butEn": "There will be estradiol in the takeout",
+		"will": "偷拿别人的外卖不会被抓",
+		"but": "外卖里有雌二醇"
+	  },
+	  {
+		"willEn": "You can turn into your favorite anime character",
+		"butEn": "Everyone else will hate you",
+		"will": "变成你喜欢的动漫角色",
+		"but": "别人都讨厌你"
+	  },
+	  {
+		"willEn": "You will be confessed to by the person you love",
+		"butEn": "All the children you have in the future will only dance the money-grabbing dance",
+		"will": "被自己喜爱的人表白",
+		"but": "你们日后的孩子只会跳抓钱舞"
+	  },
+	  {
+		"willEn": "The ability to make people fall asleep",
+		"butEn": "You will be unable to sleep",
+		"will": "让人睡着程度的能力",
+		"but": "睡不了觉"
+	  },
+	  {
+		"willEn": "The person you fictionalize in your heart will appear in front of you",
+		"butEn": "You will gradually disappear",
+		"will": "你心中所虚构的那个人会出现在你面前",
+		"but": "但你会逐渐消失"
+	  },
+	  {
+		"willEn": "Turn into a gentle cat girl",
+		"butEn": "You need protein to replenish your physical strength",
+		"will": "变成柔情猫娘",
+		"but": "需要蛋白质补充体力"
+	  },
+	  {
+		"willEn": "You can make a stranger in your city gain luck and be happy all day long",
+		"butEn": "You will become more good-looking",
+		"will": "可以让自己所在城市的一个陌生人获得幸运开心一整天",
+		"but": "自己会变好看"
+	  },
+	  {
+		"willEn": "Turn into Ultraman Ace",
+		"butEn": "Yapool will become your human host",
+		"will": "变成艾斯奥特曼",
+		"but": "亚波人会变成你的人间体"
+	  },
+	  {
+		"willEn": "You can control everything, including souls and flesh and blood",
+		"butEn": "You will lose your dreams, and the world you see is also fake",
+		"will": "你可以掌控一切，包括灵魂和血肉",
+		"but": "你会失去梦境，看到的世界也是虚假的"
+	  },
+	  {
+		"willEn": "Turn into Muzan Kibutsuji",
+		"butEn": "You will have to face Yoriichi Tsugikuni",
+		"will": "变成无惨",
+		"but": "面对缘一"
+	  },
+	  {
+		"willEn": "Turn into an incorporeal form (you can fly and pass through any object)",
+		"butEn": "Every time you end this ability, there is a probability that you will lose part of your body or memory",
+		"will": "变成无实体的形态（可以飞行且穿透任何物体）",
+		"but": "每次结束能力后都有概率会失去身体或者记忆的一部分"
+	  },
+	  {
+		"willEn": "You will lose your right hand",
+		"butEn": "You can attach an ultra-cool blazing arm!",
+		"will": "你会失去你的右手",
+		"but": "你可以接上超酷的烈臂！"
+	  },
+	  {
+		"willEn": "From now on, when you encounter any predicament or even purgatory-like desperate situation, you will do your best to solve it, and your ability ceiling will also be improved",
+		"butEn": "You will take the initiative to pursue such situations, and even find them very interesting",
+		"will": "从今以后你遇到任何困境乃至炼狱般的绝境都会尽你所有的努力去解决，你的能力上限也会提升",
+		"but": "你会主动追求这种境遇，甚至觉得这种境遇非常有趣"
+	  },
+	  {
+		"willEn": "Press this button and all fear, sorrow, pain and war in the world will disappear",
+		"butEn": "But you will bear everything alone",
+		"will": "按下这个按钮世界上的一切恐惧悲伤痛苦战争都会消失",
+		"but": "但是你独自承受一切"
+	  },
+	  {
+		"willEn": "You have an extremely sharp business mind",
+		"butEn": "Once your total assets exceed 1 million, they will all be confiscated",
+		"will": "你拥有极致的经商头脑",
+		"but": "一旦你的资产总额超过100w就会被全部没收"
+	  },
+	  {
+		"willEn": "You will get a Spring-Autumn Cicada, no cooldown time or immortal energy required",
+		"butEn": "It can only be used when your own life is in crisis; you have to use it honestly otherwise, and it cannot be used after death",
+		"will": "你会获得一只春秋蝉，且不需要冷却和仙元",
+		"but": "只有关乎到自己生死危机才能用，其余都得老老实实的用，死亡无法使用"
+	  },
+	  {
+		"willEn": "Invisibility",
+		"butEn": "Only you cannot see yourself",
+		"will": "隐身",
+		"but": "只有你自己看不见"
+	  },
+	  {
+		"willEn": "You can trigger miracles",
+		"butEn": "You must draw a star before using this ability",
+		"will": "你可以引发奇迹",
+		"but": "但是你必须在使用前画星星"
+	  },
+	  {
+		"willEn": "You have the ability to stop time (you can set how long it lasts)",
+		"butEn": "It only stops your own time (you will stay motionless in others' eyes, which is a way to extend your life in a sense) (you can still get hurt during time stop)",
+		"will": "你有能力让时间停止。（可以设置停止多长时间）",
+		"but": "只是停止你自身的时间（别人看来你一动不动，某种意义上的延长寿命）（时间停止期间依旧能受伤）"
+	  },
+	  {
+		"willEn": "You can fly anytime and anywhere",
+		"butEn": "Every time you fly, you will have diarrhea uncontrollably, but your stool has no odor and is rainbow-colored",
+		"will": "你可以随时随地的飞行",
+		"but": "但你每次飞行都会窜稀，而且控制不住，不过你拉的屎没有臭味，而且是彩虹色的"
+	  },
+	  {
+		"willEn": "Whatever you imagine can appear in reality",
+		"butEn": "Others cannot see or touch it",
+		"will": "你所想象的，可以在现实中出现",
+		"but": "别人看不见也摸不到"
+	  },
+	  {
+		"willEn": "You can live forever",
+		"butEn": "You are immortal",
+		"will": "你可以永生",
+		"but": "你是不朽的"
+	  },
+	  {
+		"willEn": "You can walk through walls",
+		"butEn": "Walking through walls is one-way",
+		"will": "你可以穿墙",
+		"but": "穿墙是单向的"
+	  },
+	  {
+		"willEn": "You can transform into any appearance",
+		"butEn": "You cannot change back to your original appearance",
+		"will": "你可以变换成任何样貌",
+		"but": "不能变回原本的样貌"
+	  },
+	  {
+		"willEn": "You can cut and weave other people's memories just like cutting and weaving cloth",
+		"butEn": "You will randomly inherit the most painful memory of the modified person, and repeatedly experience it in your dreams until it becomes a past that you feel as if you have personally experienced",
+		"will": "你可以像裁剪布料一样剪切、编织他人的记忆",
+		"but": "你会随机继承被修改者最痛苦的一段记忆，并在梦中反复体验，直至它成为你仿佛亲身经历的过去"
+	  },
+	  {
+		"willEn": "You don't have to go to work/school every day, and your salary/student status will be kept as usual",
+		"butEn": "You will randomly lose any one of your organs",
+		"will": "你每天都不用上班/上学，工资/学籍正常给",
+		"but": "你将随机失去你的任意一个器官"
+	  },
+	  {
+		"willEn": "You can gain abilities related to electricity",
+		"butEn": "Every time you use this ability, you have to consume two coins",
+		"will": "你可以获得关于电的能力",
+		"but": "你每使用一次能力都要消耗两枚硬币"
+	  },
+	  {
+		"willEn": "You can control everything",
+		"butEn": "You can only control things weaker than you",
+		"will": "你可以控制任何事物",
+		"but": "但只能操控比你弱的"
+	  },
+	  {
+		"willEn": "Muse and Aqours are resurrected",
+		"butEn": "Lantis dies on the spot",
+		"will": "缪水复活",
+		"but": "烂铁原地去世"
+	  },
+	  {
+		"willEn": "The road",
+		"butEn": "It has no end",
+		"will": "路",
+		"but": "永无止境"
+	  },
+	  {
+		"willEn": "You can designate any person to kill",
+		"butEn": "After killing someone, one of your relatives will die randomly",
+		"will": "你可以指定杀死任何一个人",
+		"but": "杀了人之后你的亲人会随机死一个"
+	  },
+	  {
+		"willEn": "You will gain Superman-like abilities",
+		"butEn": "You need to live in an empty space for 35023.4 billion years (your memory will not be erased)",
+		"will": "你会获得超人的能力",
+		"but": "需要在一个什么都没有的空间生活350234亿年（记忆不会被消除）"
+	  },
+	  {
+		"willEn": "You can control wind and flowers",
+		"butEn": "You will be forgotten by everything and never noticed again",
+		"will": "可以操纵风与花",
+		"but": "被所有事物遗忘且再也不会被注意"
+	  },
+	  {
+		"willEn": "You can travel to another world at any time",
+		"butEn": "The world you travel to is random every time",
+		"will": "你可以随时穿越到异世界",
+		"but": "每次穿越的世界都是随机的"
+	  },
+	  {
+		"willEn": "You can fly",
+		"butEn": "You cannot walk",
+		"will": "你会飞",
+		"but": "不会走路"
+	  },
+	  {
+		"willEn": "No one will know if you skip class",
+		"butEn": "No one will know if you attend class either",
+		"will": "逃课没人知道",
+		"but": "上课也没人知道"
+	  },
+	  {
+		"willEn": "The Midas Touch (anything you touch turns to gold)",
+		"butEn": "The Reverse Midas Touch (any gold you touch turns to stone)",
+		"will": "点石成金（什么东西都会变成金子）",
+		"but": "点金成石（会把任何金子变成石头）"
+	  },
+	  {
+		"willEn": "You have the ability to create life",
+		"butEn": "You cannot have children yourself",
+		"will": "拥有创造生命的能力",
+		"but": "自身无法生育"
+	  },
+	  {
+		"willEn": "You have a Stand, and you can choose any ability for it",
+		"butEn": "All Stand users will want to kill you",
+		"will": "拥有替身，能力随便填",
+		"but": "所有替身使者都会想杀了你"
+	  },
+	  {
+		"willEn": "You have immense strength",
+		"butEn": "Your head is pointed",
+		"will": "力大无比",
+		"but": "脑袋尖尖"
+	  },
+	  {
+		"willEn": "You can transform into a 2D form",
+		"butEn": "You can only walk on flat walls and floors",
+		"will": "你可以变成2D形态",
+		"but": "只能在平整的墙壁和地板上行走"
+	  },
+	  {
+		"willEn": "Your luck in gacha games increases by 1.99%",
+		"butEn": "You will emit a strong, sweet and naive aura of a die-hard fan of that game all over your body",
+		"will": "你的抽卡游戏运气上升1.99%",
+		"but": "你会浑身散发出关于那个游戏浓厚甜蜜天真的卫兵石力"
+	  },
+	  {
+		"willEn": "You get two hours of invisibility every day",
+		"butEn": "During invisibility, you will enter a sage mode and have no memory of the invisibility period after returning to normal",
+		"will": "你每天获得两个小时的隐身时间",
+		"but": "隐身状态中会陷入圣人状态并现身后没有隐身时的记忆"
+	  },
+	  {
+		"willEn": "You can move feces freely",
+		"butEn": "You have to eat it first",
+		"will": "可以随便搬屎",
+		"but": "自己要先吃"
+	  },
+	  {
+		"willEn": "Any ability used on you will be ineffective",
+		"butEn": "You have to steal two coins every day",
+		"will": "任何人对你使用能力都将无效",
+		"but": "你每天要去偷两个硬币"
+	  },
+	  {
+		"willEn": "You can travel through time and space",
+		"butEn": "You will forget everything that happens after time travel",
+		"will": "你可以穿越时空",
+		"but": "但你会忘记穿越时空之后的所有事情"
+	  },
+	  {
+		"willEn": "You can come to the Pokémon world",
+		"butEn": "You cannot become a Pokémon Trainer",
+		"will": "你能来到宝可梦的世界",
+		"but": "你当不了训练家"
+	  },
+	  {
+		"willEn": "Your mind will exist forever",
+		"butEn": "Your body will dissipate",
+		"will": "思维永存",
+		"but": "肉体消散"
+	  },
+	  {
+		"willEn": "You will become the God of Malice",
+		"butEn": "Your true form is a big tomato",
+		"will": "你会成为恶意之神",
+		"but": "你的本体是一个大番茄"
+	  },
+	  {
+		"willEn": "You can resurrect any person you love, and their memories and personality will be completely preserved",
+		"butEn": "They will turn into an ugly monster (only appearance changes, retaining the ability to speak and other characteristics)",
+		"will": "你可以复活任意一个你所爱的人，并且ta的记忆、性格等全部保留",
+		"but": "ta会变成一只丑陋的怪物（只改变外貌，保留说话能力以及其他特点）"
+	  },
+	  {
+		"willEn": "You will turn into a werewolf under the moonlight",
+		"butEn": "You will turn into a little gray dog under the sunlight",
+		"will": "在月光下会变成狼人",
+		"but": "在阳光下会变成小灰狗"
+	  },
+	  {
+		"willEn": "The person standing behind you will become your significant other",
+		"butEn": "No side effects",
+		"will": "站在你后面的人会成为你的另一半",
+		"but": "没有副作用"
+	  },
+	  {
+		"willEn": "You will fully master a correct theory that has not yet been understood and accepted by the world; you will have several like-minded friends to discuss academics with and face the cold stares and ridicule of others together",
+		"butEn": "Your theory will eventually bring disaster to you, and you and your friends will be persecuted",
+		"will": "你将完全掌握精通一套正确但还尚未被世人理解和接受的理论，有几位志同道合的好友会和你一起讨论学术并面对其他人的冷眼嘲笑",
+		"but": "你的理论最终会为你招致灾难，你和好友都会遭到迫害"
+	  },
+	  {
+		"willEn": "Whatever you wish for comes true",
+		"butEn": "You cannot control which wishes come true and which do not",
+		"will": "心想事成",
+		"but": "无法控制什么心想事成什么不心想事成"
+	  },
+	  {
+		"willEn": "You can hypnotize all members of the opposite sex",
+		"butEn": "Once you use this ability, you will become a eunuch",
+		"will": "可以催眠所有异性",
+		"but": "一旦用能力就会变成太监"
+	  },
+	  {
+		"willEn": "You can gain the ability of any character",
+		"butEn": "The ability you gain is the opposite of the original",
+		"will": "你可以获得任何角色的能力",
+		"but": "你获得的能力是相反的"
+	  },
+	  {
+		"willEn": "The entire world will pause for ten minutes for you",
+		"butEn": "Including you yourself",
+		"will": "整个世界都会为你暂停十分钟",
+		"but": "包括你自己"
+	  },
+	  {
+		"willEn": "Enter the 'time stop' state at any time, only you can move, and you can stop it for as long as you want",
+		"butEn": "Every time you use it, you will randomly forget an important memory of your past (such as childhood fragments, relatives' names, first heartbeat, etc.), and it cannot be recovered",
+		"will": "随时进入‘时间暂停’状态，只有自己能行动，想停多久就多久",
+		"but": "每次使用，都会随机忘记一个关于自己过去的重要记忆（如童年片段、亲人名字、第一次心动等），且无法恢复"
+	  },
+	  {
+		"willEn": "You can be resurrected infinitely after death to the time you think is the safest",
+		"butEn": "You will come to a world full of weird things, where you will be killed countless times by your wife",
+		"will": "你可以无限死后复活到你认为最安全的时间",
+		"but": "你会来到一个诡异满天飞的世界，在这里，你会被你的老婆杀无数次"
+	  },
+	  {
+		"willEn": "Make the large intestine of the person you hate grow taste buds",
+		"butEn": "You cannot taste the flavor of food when eating",
+		"will": "让你讨厌的人大肠长出味蕾",
+		"but": "你吃饭吃不出味道"
+	  },
+	  {
+		"willEn": "You can get 10 yuan RMB every hour",
+		"butEn": "You will have a toothache from 5 am to 6 am every day",
+		"will": "可以每1小时得到10元人民币",
+		"but": "每天早上5点到6点会牙痛"
+	  },
+	  {
+		"willEn": "You can transform into a magical girl",
+		"butEn": "Your little toe will be bumped every ten minutes",
+		"will": "可以变身成魔法少女",
+		"but": "每十分钟小脚趾就会被撞到"
+	  },
+	  {
+		"willEn": "You can fly anytime within a day",
+		"butEn": "You will crash once every 24 minutes of flight",
+		"will": "一天的时间可以随时飞行",
+		"but": "每起飞24分钟就会坠机一次"
+	  },
+	  {
+		"willEn": "You can become a partner with the target you choose",
+		"butEn": "Your gender will be reversed",
+		"will": "能与你选中的目标成为伴侣",
+		"but": "但是你的性别反向"
+	  },
+	  {
+		"willEn": "You can gain the ability to reflect sound",
+		"butEn": "For the rest of your life, everyone you see will look like a penguin, and you can only hear 'gugu gaga' sounds",
+		"will": "你能获得反射声音程度的能力",
+		"but": "你这辈子看到的人都是企鹅的样子，并且只能听到咕咕嘎嘎"
+	  },
+	  {
+		"willEn": "You will get everything you want",
+		"butEn": "You can only use them for three minutes every day",
+		"will": "你将会获得你想要的一切",
+		"but": "每天只能使用它们三分钟"
+	  },
+	  {
+		"willEn": "All your enemies will die",
+		"butEn": "Your relatives, lovers and friends around you will also die randomly",
+		"will": "你的仇人都会死",
+		"but": "你身边的亲人、爱人、朋友，也会随机死亡"
+	  },
+	  {
+		"willEn": "The world pauses for 5 seconds",
+		"butEn": "The coordinates of the Earth where you are will be displayed above the sky of all planets with intelligent species",
+		"will": "世界暂停5秒",
+		"but": "全部拥有智慧物种的星球上空会显示你所在地球的坐标"
+	  },
+	  {
+		"willEn": "Your Steam account will have all games",
+		"butEn": "This account will be offline forever",
+		"will": "你的Steam账号会拥有所有游戏",
+		"but": "但是这个账号永远离线"
+	  },
+	  {
+		"willEn": "The person you love will fall in love with you",
+		"butEn": "He/She will lose one of the five senses",
+		"will": "你爱的人会爱上你",
+		"but": "她/他将失去5感之一"
+	  },
+	  {
+		"willEn": "You can unconditionally know the thing that a person cannot tolerate the most about you or themselves",
+		"butEn": "After knowing it, you will lose the most important thing related to this person",
+		"will": "你可以无条件地随便知道一个人最不能容忍你or自己的地方",
+		"but": "知道后会失去和这个人有关联的最重要的东西"
+	  },
+	  {
+		"willEn": "You have a time-space travel machine",
+		"butEn": "Your existence will disappear from the existing world and you will lose your identity",
+		"will": "拥有穿梭时空的机器",
+		"but": "你的存在会消弭于现有世界，失去身份"
+	  },
+	  {
+		"willEn": "Gain the ability to travel through time and space",
+		"butEn": "Every time you use this ability, you will permanently lose some memories",
+		"will": "获得穿越时空的能力",
+		"but": "每次使用能力都会永久失去一些记忆"
+	  },
+	  {
+		"willEn": "You will get a chance to press the button again",
+		"butEn": "You will lose the chance to press it next time",
+		"will": "你将获得再按一次的机会",
+		"but": "你失去了下一次按下的机会"
+	  },
+	  {
+		"willEn": "You can live forever, and there is no way to kill you",
+		"butEn": "Your sense of existence in this world will gradually decrease as you grow older until it disappears, and no one can see you anymore",
+		"will": "你可以长生不老，没有杀死你的方法",
+		"but": "你在这世上的存在感会随着年龄的增长而慢慢减少，直至消失，所有人都看不见你"
+	  },
+	  {
+		"willEn": "Turn into a fumo",
+		"butEn": "You can only say 'fumo'",
+		"will": "变成fumo",
+		"but": "只会说fumo"
+	  },
+	  {
+		"willEn": "You can foresee the future",
+		"butEn": "Once the future is foreseen, it will become an established and unchangeable fact",
+		"will": "能预见未来",
+		"but": "未来一旦被预见，就会成为既定的无法改变的事实"
+	  },
+	  {
+		"willEn": "Randomly summon a baka",
+		"butEn": "You will be scolded by the baka",
+		"will": "随机召唤一个baka",
+		"but": "被baka骂"
+	  },
+	  {
+		"willEn": "You can go back five seconds ago at any time",
+		"butEn": "Every time you use it, you will lose a quarter of your memory",
+		"will": "你可以随时回到五秒之前",
+		"but": "每使用一次记忆丢失四分之一"
+	  },
+	  {
+		"willEn": "You can choose and gain an unparalleled talent",
+		"butEn": "You will forget your ideals and dreams",
+		"will": "你可以自己任选并获得一项无人能及的才能",
+		"but": "你会忘记自己的理想与梦想"
+	  },
+	  {
+		"willEn": "You will be luckier than ordinary people, learn faster, understand knowledge better than others; more people around you will have things that do not belong to them; you will get a portable space (27 cubic meters); you will obtain and use unique relics",
+		"butEn": "The damage you receive will be doubled; people who are not familiar with you will be hostile to you; the effectiveness of all protections will be reduced by 30%; the damage you deal to others will be halved; flames will burn you forever; your soul will shatter after death; you will suffer from incurable insomnia",
+		"will": "你会比一般人幸运，学习速度更加快速，比他人更能融会贯通知识，你的周围拥有不属于自己东西的人会变多，获得随身空间（27立方米），你会获得和使用独特的遗物",
+		"but": "你受到的伤害将会翻倍，不熟的人会对你产生恶意，一切防护的效力降低30%，你对他人的伤害降低一半，火焰会永远灼烧你，死后灵魂破碎，患有无法治愈的失眠症"
+	  },
+	  {
+		"willEn": "You can make humans dominate the Milky Way in 4000 AD",
+		"butEn": "There is a being that has destroyed countless civilizations and will destroy humans shortly after 4000 AD",
+		"will": "你可以让人类在公元4000年称霸银河系",
+		"but": "有一个毁灭了无数文明的存在会在4000年之后不久毁灭人类"
+	  },
+	  {
+		"willEn": "You can teleport anytime and anywhere to the places you have been to and set coordinates (unlimited coordinates)",
+		"butEn": "You cannot teleport if someone is watching you",
+		"will": "可以随时随地传送到你曾去到过并且设下坐标的地点（坐标无限个）",
+		"but": "若被人看着无法传送"
+	  },
+	  {
+		"willEn": "Possess extremely powerful power",
+		"butEn": "Lose your human form",
+		"will": "拥有更极其强大的力量",
+		"but": "失去人类外形"
+	  },
+	  {
+		"willEn": "You can become invisible freely",
+		"butEn": "You will be hunted down by your favorite character",
+		"will": "你可以自由的隐身",
+		"but": "你要被你最喜欢的人物追杀"
+	  },
+	  {
+		"willEn": "You can turn 0 into 1",
+		"butEn": "It will change back to 0 the moment it takes effect",
+		"will": "可以把0变成1",
+		"but": "生效的一瞬间会变回去"
+	  }
   ],
   "used": [
   ]

@@ -22,9 +22,11 @@ function unicodeToChinese(str) {
 async function checkContent(text) {
   try {
     const encodedText = encodeURIComponent(text)
-    const response = await fetch(`https://i.elaina.vin/api/%E5%AE%A1%E6%A0%B8%E7%B3%BB%E7%BB%9F.php?text=${encodedText}`)
+    // ⬇️ 就换了下面这一行
+    const response = await fetch(`https://textcheck.185110524.xyz/?text=${encodedText}`)
     const data = await response.json()
     
+    // ⬇️ 下面完全不变，可以直接用
     if (data.status === 'success') {
       if (data.result.safe === 1) {
         return { safe: true, reason: data.result.reason }
@@ -38,6 +40,8 @@ async function checkContent(text) {
     return { safe: false, reason: '审核服务异常，请稍后再试' }
   }
 }
+
+
 
 export const rule = {
   superPower: {
@@ -82,9 +86,9 @@ export const rule = {
     }
   },
   review: {
-    reg: /^#?评论\s*(.*)$/,
+    reg: /^#评论\s*(.*)$/,
     fnc: async e => {
-      const message = e.msg.replace(/#?评论\s*/, '')
+      const message = e.msg.replace(/#评论\s*/, '')
       if (!message) {
         return false
       }
@@ -106,10 +110,9 @@ export const rule = {
         ]
         return await e.reply(msg)
       }
-      
+      await e.reply('评论正在审核中，请稍候...')
       // 调用审核API检查内容
       const checkResult = await checkContent(message)
-      
       if (!checkResult.safe) {
         const msg = [
           `评论内容不符合规范: ${checkResult.reason}`,

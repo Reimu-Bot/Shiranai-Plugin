@@ -24,7 +24,7 @@ function toButton (buttons, adapterName, cfg = { defRetType: 'image' }) {
       switch (Version.BotName) {
         case 'Karin':
           return segment.text('')
-        case 'Trss-Yunzai':
+        case '灵梦Bot':
           return segment.button(...buttons)
         case 'Miao-Yunzai':
           return Bot.Button(buttons)

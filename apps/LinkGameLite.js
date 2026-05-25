@@ -86,6 +86,7 @@ export const rule = {
           buttons.push(button)
         }
       }
+	  console.log('准备回复时的 adapter_name：', e.adapter_name);
       const msg = e.adapter_name === 'QQBot' ? '请点击按钮,可多选' : '使用 “连线”+位置 连线方块，\n必须同时加多个位置，如：“连线 A1 A2”'
       // \t\t\t[结束游戏] (mqqapi://aio/inlinecmd?command=${encodeURIComponent('/结束连连看')}&reply=false&enter=true)
       return e.reply([`${msg}\r得分:${game.score}\t\t\t剩余时间:${game.leftTime}`, await toButton(buttons, e.adapter_name)])

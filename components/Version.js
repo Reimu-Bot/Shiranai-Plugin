@@ -85,7 +85,7 @@ const BotName = (() => {
   } else if (packageJson.dependencies.react) {
     return 'Miao-Yunzai V4'
   } else if (Array.isArray(global.Bot?.uin)) {
-    return 'Trss-Yunzai'
+    return '灵梦Bot'
   } else if (packageJson.dependencies.sequelize) {
     return 'Miao-Yunzai'
   } else {
