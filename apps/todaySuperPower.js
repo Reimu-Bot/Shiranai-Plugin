@@ -22,8 +22,7 @@ function unicodeToChinese(str) {
 async function checkContent(text) {
   try {
     const encodedText = encodeURIComponent(text)
-    // ⬇️ 就换了下面这一行
-    const response = await fetch(`https://textcheck.185110524.xyz/?text=${encodedText}`)
+    const response = await fetch(`https://review.185110524.xyz/api/moderate?text=${encodedText}`)
     const data = await response.json()
     
     // ⬇️ 下面完全不变，可以直接用
