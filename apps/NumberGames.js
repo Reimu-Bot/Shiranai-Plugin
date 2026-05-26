@@ -4,7 +4,9 @@ import {
   userInfoTableCreateUser,
   userInfoTableUpdateUser,
   sleep,
-  toButton
+  toButton,
+  recordWin,
+  statsButton
 } from '#models'
 // import { App } from '#components'
 import { segment } from '#lib'
@@ -70,7 +72,8 @@ export const rule = {
         [
           { text: '24点', callback: '/24点' },
           { text: '60点', callback: '/60点' },
-          { text: '72点', callback: '/72点' }
+          { text: '72点', callback: '/72点' },
+          statsButton()
         ]
       ]
       e.toQQBotMD = true
@@ -79,6 +82,7 @@ export const rule = {
       const user_id = e.user_id
       if (check_result(msg, nowGame.question, nowGame.game)) {
         delete GameName[e.group_id]
+        recordWin(e, `${nowGame.game}点`)
         const user_info = await getUserInfo(e)
         user_info.currency += 5
         await userInfoTableUpdateUser(user_info.user_id, user_info)
@@ -103,7 +107,8 @@ export const rule = {
         [
           { text: '24点', callback: '/24点' },
           { text: '60点', callback: '/60点' },
-          { text: '72点', callback: '/72点' }
+          { text: '72点', callback: '/72点' },
+          statsButton()
         ]
       ]
       if (!nowGame) return await e.reply(['现在没有开局哦,请输入/24点来开始游戏!', toButton(buttons, 'QQBot')])
@@ -144,7 +149,7 @@ export const rule = {
         nowGame.nowNum = rand
         nowGame.start = true
         nowGame.time = setTimeout(() => {
-          e.reply('算术对战已超时自动结束游戏')
+          e.reply(['算术对战已超时自动结束游戏', toButton([[{ text: '再来一局', input: '/算术对战', send: true }, statsButton()]], 'QQBot')])
           delete GameName[e.group_id]
         }, 1000 * 60 * 3)
         return await e.reply(['请', segment.at(nowGame.user[0].id), `开始选择,本次数字:\r${rand}`, toButton(buttons, 'QQBot')])
@@ -214,7 +219,7 @@ export const rule = {
       const rand = Math.floor(Math.random() * 9) + 1
       nowGame.nowNum = rand
       nowGame.time = setTimeout(() => {
-        e.reply('算术对战已超时自动结束游戏')
+        e.reply(['算术对战已超时自动结束游戏', toButton([[{ text: '再来一局', input: '/算术对战', send: true }, statsButton()]], 'QQBot')])
         delete GameName[e.group_id]
       }, 1000 * 60 * 3)
       if (nowGame.count == 4) {
@@ -228,7 +233,8 @@ export const rule = {
         } else {
           const buttons = [
             [
-              { text: '再来一局', input: '/算术对战', send: true }
+              { text: '再来一局', input: '/算术对战', send: true },
+              statsButton()
             ]
           ]
           clearTimeout(nowGame.time)
@@ -237,10 +243,12 @@ export const rule = {
           const num1 = Number(nowGame.user[0].sum)
           const num2 = Number(nowGame.user[1].sum)
           if (num1 > num2) {
+            recordWin(e, '算术对战', nowGame.user[0].id)
             return await e.reply(['恭喜', segment.at(nowGame.user[0].id), '获得胜利!', toButton(buttons, 'QQBot')])
           } else if (num1 == num2) {
             return await e.reply(['是平局!', toButton(buttons, 'QQBot')])
           }
+          recordWin(e, '算术对战', nowGame.user[1].id)
           return await e.reply(['恭喜', segment.at(nowGame.user[1].id), '获得胜利!', toButton(buttons, 'QQBot')])
         }
         const oldUser = nowUser
@@ -270,13 +278,15 @@ export const rule = {
           await e.reply(`菜菜的结果为${nowUser.str} = ${nowUser.sum}`)
           const buttons = [
             [
-              { text: '再来一局', input: '/算术对战', send: true }
+              { text: '再来一局', input: '/算术对战', send: true },
+              statsButton()
             ]
           ]
           delete GameName[e.group_id]
           const num1 = Number(nowGame.user[0].sum)
           const num2 = Number(nowGame.user[1].sum)
           if (num1 > num2) {
+            recordWin(e, '算术对战', nowGame.user[0].id)
             const user_info1 = await getUserInfo({ user_id: nowGame.user[0].id })
             user_info1.currency += 5
             await userInfoTableUpdateUser(user_info1.user_id, user_info1)

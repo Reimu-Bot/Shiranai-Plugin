@@ -1,4 +1,4 @@
-import { toButton, extLetterToNumber, MineSweeper } from '#models'
+import { toButton, extLetterToNumber, MineSweeper, recordWin, statsButton } from '#models'
 // import { App } from '#components'
 
 // 多少行
@@ -79,6 +79,7 @@ export const rule = {
           msg = `你输了 ${mine}是雷`
           return e.adapter_name === 'QQBot' ? msg + `  [再来一局] (mqqapi://aio/inlinecmd?command=${encodeURIComponent('#扫雷')}&reply=false&enter=true)` : msg
         } else if (state == 2) {
+          recordWin(e, '扫雷')
           msg = '你赢了!!'
           return e.adapter_name === 'QQBot' ? msg + `  [再来一局] (mqqapi://aio/inlinecmd?command=${encodeURIComponent('#扫雷')}&reply=false&enter=true)` : msg
         } else {
@@ -113,6 +114,7 @@ export const rule = {
       }
       if (state == 3 || state == 2) {
         MineGame[e.group_id] = null
+        buttons.push([{ text: '再来一局', callback: '#扫雷' }, statsButton()])
       }
       return await e.reply([content, await toButton(buttons, e.adapter_name)])
     }

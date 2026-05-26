@@ -1,6 +1,6 @@
 import { segment } from '#lib'
 import { Config, Render, App } from '#components'
-import { MainScene, extLetterToNumber, toButton } from '#models'
+import { MainScene, extLetterToNumber, toButton, recordWin, statsButton } from '#models'
 
 const GAME = {}
 
@@ -41,6 +41,7 @@ export const rule = {
       const [x, y] = extLetterToNumber(e.msg.replace(/^#?点击\s*/, '')).map(x => x - 1).reverse()
       const { message, state } = game.playerClick(x, y, await getAvatarUrl(e))
       const msg = await render(game, message, e.user_id, !!state)
+      if (state === 'win') recordWin(e, '圈小猫')
       if (state) delete GAME[key]
       return await e.reply(msg)
     }
@@ -66,7 +67,7 @@ export const rule = {
         return
       }
       delete GAME[key]
-      return await e.reply(['圈小猫已结束', toButton([getDifficultyButtons()], 'QQBot')])
+      return await e.reply(['圈小猫已结束', toButton([getDifficultyButtons(), [statsButton()]], 'QQBot')])
     }
   }
 }
@@ -92,6 +93,7 @@ async function render (game, message, user_id, showDifficultyButtons = false) {
     { text: '点击', input: '点击' }
   ], controlButtons]
   if (showDifficultyButtons) buttons.push(getDifficultyButtons())
+  if (showDifficultyButtons) buttons.push([statsButton()])
   msg.push(toButton(buttons, 'QQBot'))
   return msg
 }
