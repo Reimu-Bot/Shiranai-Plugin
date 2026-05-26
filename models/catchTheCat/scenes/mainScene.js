@@ -85,7 +85,7 @@ export default class MainScene {
     return this.blocks[i][j]
   }
 
-  playerClick (i, j) {
+  playerClick (i, j, avatarUrl) {
     if (this.state !== GameState.PLAYING) {
       this.reset()
       return {
@@ -112,7 +112,7 @@ export default class MainScene {
         message: '点击位置是猫当前位置，禁止点击'
       }
     }
-    block.isWall = true
+    block.setWall(avatarUrl)
     if (this.cat.isCaught()) {
       this.state = GameState.WIN
       return {
@@ -186,7 +186,7 @@ export default class MainScene {
         const { i, j } = this.recordCoord.wall.pop()
 
         this.cat.undo(catCoord.i, catCoord.j)
-        this.getBlock(i, j).isWall = false
+        this.getBlock(i, j).setWall(false)
         return {
           message: '撤销成功'
         }
@@ -219,7 +219,7 @@ export default class MainScene {
   resetBlocks () {
     this.blocks.forEach(blocks => {
       blocks.forEach(block => {
-        block.isWall = false
+        block.setWall(false)
       })
     })
   }
@@ -245,7 +245,7 @@ export default class MainScene {
       // Set wall
       const wallI = array[i] % this.w
       const wallJ = Math.floor(array[i] / this.w)
-      this.getBlock(wallI, wallJ).isWall = true
+      this.getBlock(wallI, wallJ).setWall(true)
     }
   }
 }

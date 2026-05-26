@@ -138,6 +138,10 @@ class Config {
 
     function customizer (objValue, srcValue, key, object, source, stack) {
       if (_.isArray(objValue) && _.isArray(srcValue)) {
+        if (!objValue.length && srcValue.length) {
+          differences = true
+          return srcValue
+        }
         return objValue
       } else if (_.isPlainObject(objValue) && _.isPlainObject(srcValue)) {
         if (!_.isEqual(objValue, srcValue)) {

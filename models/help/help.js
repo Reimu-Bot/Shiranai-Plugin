@@ -18,7 +18,7 @@ export const helpList = [
       },
       {
         icon: 63,
-        title: '#圈小猫',
+        title: '#圈小猫简单/普通/困难',
         desc: '圈住小猫获得游戏胜利'
       },
       {

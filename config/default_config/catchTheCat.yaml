@@ -7,6 +7,24 @@ cols: 11
 # 初始墙数量
 initialWallCount: 8
 
+# 默认难度
+defaultDifficulty: "简单"
+
+# 难度配置，简单保持原默认参数，初始墙越多越简单，棋盘越大越难
+difficulties:
+  简单:
+    rows: 11
+    cols: 11
+    initialWallCount: 8
+  普通:
+    rows: 11
+    cols: 11
+    initialWallCount: 5
+  困难:
+    rows: 13
+    cols: 13
+    initialWallCount: 5
+
 # 游戏范围
 # "group": 群内只能开一个游戏, 群内所有人都能玩, key 为群ID
 # "user": 每个人都能开一个游戏, 会跨群, key 为用户ID
@@ -15,6 +33,9 @@ scope: "group"
 
 # 发送的图片是否at, at时图片缩略图会变小
 at: false
+
+# 是否允许回退
+allowRollback: true
 
 # 没有开始游戏时输入了开始游戏后的指令提示
 # false: 不提示直接开始新游戏

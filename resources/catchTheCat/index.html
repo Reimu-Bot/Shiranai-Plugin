@@ -17,13 +17,13 @@
         </div>
         <div id="tip">
             <div>
-                #重置抓小猫
+                #圈小猫简单/普通/困难
             </div>
             <div>
                 #点击 A1
             </div>
             <div>
-                #回退抓小猫
+                #重置/结束抓小猫
             </div>
         </div>
     </div>
@@ -82,6 +82,11 @@
                     const image = document.createElement('img');
                     image.src = `{{@ pluResPath}}catchTheCat/1.svg`
                     image.className = 'img'
+                    content.appendChild(image)
+                } else if (i.avatarUrl) {
+                    const image = document.createElement('img');
+                    image.src = i.avatarUrl
+                    image.className = 'avatar'
                     content.appendChild(image)
                 } else {
                     content.innerHTML = e + (i.i + 1)
