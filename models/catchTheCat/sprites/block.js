@@ -12,4 +12,9 @@ export default class Block {
   set isWall (value) {
     this._isWall = value
   }
+
+  setWall (avatarUrl) {
+    this._isWall = !!avatarUrl
+    this.avatarUrl = typeof avatarUrl === 'string' ? avatarUrl : ''
+  }
 }

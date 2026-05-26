@@ -91,7 +91,7 @@ export const rule = {
         for (const k of i) {
           if (state == 3 || state == 2) {
             if (k.isMine) {
-              button.push({ text: '雷', input: `挖开 ${x},${y}`, style: 0, permission: 'xxx', QQBot: { render_data: { style: 0 } } })
+              button.push({ text: '💥', input: `挖开 ${x},${y}`, style: 0, permission: 'xxx', QQBot: { render_data: { style: 0 } } })
             } else if (k.isOpen) {
               button.push({ text: (k.count || ' ') + '', input: `挖开 ${x},${y}`, style: 0, permission: 'xxx', QQBot: { render_data: { style: 0 } } })
             } else {
