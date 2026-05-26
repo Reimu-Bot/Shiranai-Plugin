@@ -1,4 +1,5 @@
-import { toButton, extLetterToNumber, LinkGame } from '#models'
+import { toButton, extLetterToNumber, LinkGame, recordWin, statsButton } from '#models'
+import { segment } from '#lib'
 // import { App } from '#components'
 
 const GAME = {}
@@ -15,7 +16,7 @@ export const rule = {
       e.toQQBotMD = true
       if (e.msg.includes('结束')) {
         delete GAME[e.group_id]
-        return e.reply(['连连看已结束', toButton([[{ text: '开始游戏', callback: '#连连看' }]], e.adapter_name, { defRetType: 'text' })])
+        return e.reply(['连连看已结束', toButton([[{ text: '开始游戏', callback: '#连连看' }, statsButton()]], 'QQBot', { defRetType: 'text' })])
       }
       if (!GAME[e.group_id]) {
         GAME[e.group_id] = new LinkGame()
@@ -37,7 +38,7 @@ export const rule = {
       }
       const msg = e.adapter_name === 'QQBot' ? '请点击按钮,可多选' : '使用 “连线”+位置 连线方块，\n必须同时加多个位置，如：“连线 A1 A2”'
       // \t\t\t[结束游戏] (mqqapi://aio/inlinecmd?command=${encodeURIComponent('/结束连连看')}&reply=false&enter=true)
-      return e.reply([`${msg}\r得分:${game.score}\t\t\t剩余时间:${game.leftTime}`, await toButton(buttons, e.adapter_name)])
+      return e.reply([`${msg}\r得分:${game.score}\t\t\t剩余时间:${game.leftTime}`, toQQBotButton(buttons)])
     }
   },
   link: {
@@ -45,12 +46,12 @@ export const rule = {
     fnc: async e => {
       e.toQQBotMD = true
       if (!GAME[e.group_id]) {
-        return await e.reply(['连连看未开始', toButton([[{ text: '开始游戏', callback: '/连连看' }]], e.adapter_name, { defRetType: 'text' })])
+        return await e.reply(['连连看未开始', toButton([[{ text: '开始游戏', callback: '/连连看' }]], 'QQBot', { defRetType: 'text' })])
       }
       const game = GAME[e.group_id]
       if (game.gameStatus == -1) {
         delete GAME[e.group_id]
-        return await e.reply(['连连看时间已用尽', toButton([[{ text: '开始游戏', callback: '/连连看' }]], e.adapter_name, { defRetType: 'text' })])
+        return await e.reply(['连连看时间已用尽', toButton([[{ text: '开始游戏', callback: '/连连看' }, statsButton()]], 'QQBot', { defRetType: 'text' })])
       }
       let log = ''
       const arr = []
@@ -63,7 +64,8 @@ export const rule = {
         if (arr.length == 2) {
           const ret = game.checkMatch(arr[0], arr[1])
           if (ret == 1) {
-            await e.reply([`恭喜你获得胜利\r得分:${game.score}\t\t\t剩余时间:${game.leftTime}`, toButton([[{ text: '开始游戏', callback: '/连连看' }]], e.adapter_name, { defRetType: 'text' })])
+            recordWin(e, '连连看')
+            await e.reply([`恭喜你获得胜利\r得分:${game.score}\t\t\t剩余时间:${game.leftTime}`, toButton([[{ text: '开始游戏', callback: '/连连看' }, statsButton()]], 'QQBot', { defRetType: 'text' })])
             delete GAME[e.group_id]
             return true
           }
@@ -86,12 +88,15 @@ export const rule = {
           buttons.push(button)
         }
       }
-	  console.log('准备回复时的 adapter_name：', e.adapter_name);
       const msg = e.adapter_name === 'QQBot' ? '请点击按钮,可多选' : '使用 “连线”+位置 连线方块，\n必须同时加多个位置，如：“连线 A1 A2”'
       // \t\t\t[结束游戏] (mqqapi://aio/inlinecmd?command=${encodeURIComponent('/结束连连看')}&reply=false&enter=true)
-      return e.reply([`${msg}\r得分:${game.score}\t\t\t剩余时间:${game.leftTime}`, await toButton(buttons, e.adapter_name)])
+      return e.reply([`${msg}\r得分:${game.score}\t\t\t剩余时间:${game.leftTime}`, toQQBotButton(buttons)])
     }
   }
+}
+
+function toQQBotButton (buttons) {
+  return segment.button(...buttons)
 }
 
 // export const LinkGameLite = new App(app, rule).create()

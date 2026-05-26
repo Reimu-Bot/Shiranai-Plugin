@@ -1,6 +1,6 @@
 import { segment } from '#lib'
 import { Config, Render, App } from '#components'
-import { MainScene, extLetterToNumber, toButton } from '#models'
+import { MainScene, extLetterToNumber, toButton, recordWin, statsButton } from '#models'
 
 const GAME = {}
 
@@ -40,7 +40,8 @@ export const rule = {
       const game = GAME[key]
       const [x, y] = extLetterToNumber(e.msg.replace(/^#?点击\s*/, '')).map(x => x - 1).reverse()
       const { message, state } = game.playerClick(x, y, await getAvatarUrl(e))
-      const msg = await render(game, message, e.user_id)
+      const msg = await render(game, message, e.user_id, !!state)
+      if (state === 'win') recordWin(e, '圈小猫')
       if (state) delete GAME[key]
       return await e.reply(msg)
     }
@@ -66,14 +67,14 @@ export const rule = {
         return
       }
       delete GAME[key]
-      return await e.reply(['圈小猫已结束', toButton([[{ text: '开始游戏', input: '圈小猫' }]], 'QQBot')])
+      return await e.reply(['圈小猫已结束', toButton([getDifficultyButtons(), [statsButton()]], 'QQBot')])
     }
   }
 }
 
 export const catchTheCat = new App(app, rule).create()
 
-async function render (game, message, user_id) {
+async function render (game, message, user_id, showDifficultyButtons = false) {
   const img = await Render.simpleRender('catchTheCat/index', {
     message,
     blocks: JSON.stringify(game.blocks),
@@ -88,16 +89,21 @@ async function render (game, message, user_id) {
   if (Config.catchTheCat.allowRollback) {
     controlButtons.unshift({ text: '回退', input: '回退抓小猫' })
   }
-  const difficultyButtons = Object.keys(Config.catchTheCat.difficulties || {}).map(name => ({
-    text: name,
-    input: `圈小猫${name}`
-  }))
   const buttons = [[
     { text: '点击', input: '点击' }
   ], controlButtons]
-  if (difficultyButtons.length) buttons.push(difficultyButtons)
+  if (showDifficultyButtons) buttons.push(getDifficultyButtons())
+  if (showDifficultyButtons) buttons.push([statsButton()])
   msg.push(toButton(buttons, 'QQBot'))
   return msg
+}
+
+function getDifficultyButtons () {
+  const buttons = Object.keys(Config.catchTheCat.difficulties || {}).map(name => ({
+    text: name,
+    input: `圈小猫${name}`
+  }))
+  return buttons.length ? buttons : [{ text: '开始游戏', input: '圈小猫' }]
 }
 
 function getDifficulty (msg) {
