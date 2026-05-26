@@ -75,7 +75,7 @@ export function getGameRanking (limit = 10) {
 }
 
 export function statsButton () {
-  return { text: '胜场统计', callback: '/希腊奶统计', input: '/希腊奶统计' }
+  return { text: '胜场统计', callback: '/小游戏胜场统计', input: '/小游戏胜场统计' }
 }
 
 async function getAvatarUrl (e, userId) {
